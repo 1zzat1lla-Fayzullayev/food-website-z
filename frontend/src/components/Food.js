@@ -284,16 +284,16 @@ function Food() {
                 <ul>
                   <li>
                     <a href="#">
-                      <i className="bx bx-phone"></i> +998998863758
+                      <i className="bx bx-phone"></i> +998974249484
                     </a>
                   </li>
                   <li>
                     <a
-                      href="https://mail.google.com/mail/u/0/#search/ashurovabror25%40gmail.com?compose=new"
+                      href="#"
                       target={"_blank"}
                     >
                       <i className="bx bx-envelope"></i>{" "}
-                      ashurovabror25@gmail.com
+                      izzatillafayzullayev72@gmail.com
                     </a>
                   </li>
                   <li>
@@ -328,11 +328,11 @@ function Food() {
                   <a href="#" target="_blank">
                     <i className="bx bxl-facebook-circle"></i>
                   </a>
-                  <a href="https://t.me/the_ebror" target="_blank">
+                  <a href="#" target="_blank">
                     <i className="bx bxl-telegram"></i>
                   </a>
                   <a
-                    href="https://www.instagram.com/the_ebror/"
+                    href="#"
                     target="_blank"
                   >
                     <i className="bx bxl-instagram"></i>
