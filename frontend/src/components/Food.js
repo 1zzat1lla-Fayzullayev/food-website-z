@@ -25,7 +25,11 @@ function Food() {
 
   const handleClick = (item) => {
     if (cart.find((product) => product._id == item._id)) {
-      console.log("bor");
+      Swal.fire({
+       title:  "The product is already in the cart",
+       icon: "warning",
+       confirmButtonText: "Ok",
+      })
     } else {
       console.log("yoq");
       setCart([...cart, item]);
@@ -54,14 +58,7 @@ function Food() {
 
   //decroment
 
-  const handleDecroment = (cartId) => {
-    // if (counter > 1) {
-    //   setCounter((counter) => counter - 1);
-    // }
-    // let newCart = cart.filter((item, index) => index!== cartId);
-    // setCart(newCart);
-    // console.log(cart);
-  };
+  const handleDecroment = (cartId) => {};
 
   useEffect(() => {
     axios
